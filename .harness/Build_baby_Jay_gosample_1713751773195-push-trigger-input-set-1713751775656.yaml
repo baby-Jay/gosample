@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_baby_Jay_gosample_1713751773195-push-trigger-input-set
+  identifier: Build_baby_Jay_gosample_1713751773195pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_baby_Jay_gosample_1713751773195
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
